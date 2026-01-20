@@ -6,7 +6,6 @@ Steps like table creation, CSV import, basic and advanced SQL queries, and expor
 **Dataset:** `Super.csv`  
 **Total Rows:** 9,994  
 
----
 
 ## Database Setup
 
@@ -41,7 +40,7 @@ Steps like table creation, CSV import, basic and advanced SQL queries, and expor
 
 
 1. **Basic Checks**
-```sql
+
 SELECT COUNT(*) FROM superstore_sales;
 SELECT * FROM superstore_sales LIMIT 5;
 
