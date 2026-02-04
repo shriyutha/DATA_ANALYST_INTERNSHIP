@@ -1,5 +1,6 @@
 Task_10
 
+
 table = (data.groupby(['a/b group', 'converted']).size().unstack(fill_value = 0))
 table
 
